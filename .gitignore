@@ -1,0 +1,7 @@
+.env
+bin/
+*.exe
+coverage.out
+coverage.html
+AGENTS.md
+GEMINI.md
