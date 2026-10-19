@@ -1,9 +1,10 @@
 # Campaign Broker (campaign-broker)
 
+[![CI](https://github.com/Leonardoongaratto/campaign-broker/actions/workflows/ci.yml/badge.svg)](https://github.com/Leonardoongaratto/campaign-broker/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Go Version](https://img.shields.io/badge/Go-1.27+-00ADD8?style=flat&logo=go)](https://golang.org)
 [![Framework](https://img.shields.io/badge/Framework-Gin-008ECF?style=flat&logo=gin)](https://gin-gonic.com)
 [![Messaging](https://img.shields.io/badge/Broker-RabbitMQ-FF6600?style=flat&logo=rabbitmq)](https://www.rabbitmq.com)
-[![Coverage](https://img.shields.io/badge/Coverage-86.2%25-brightgreen?style=flat)](coverage.out)
 [![Architecture](https://img.shields.io/badge/Architecture-Clean%20%2F%20Hexagonal-blueviolet?style=flat)](#1-arquitetura-e-topologia)
 
 Microsserviço em Go de altíssimo throughput e ultrabaixa latência projetado para ingestão massiva de webhooks, streaming otimizado de mídias, roteamento inteligente de mensageria e despacho de templates de campanhas (WhatsApp / Mensageria Corporativa). Sustenta picos superiores a **5.000 requisições por segundo (RPS)** com latência p95 sub-milissegundo.
